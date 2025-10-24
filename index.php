@@ -1,54 +1,67 @@
 <?php
- $number=212;
- $name="Areeba";
- $point_value=55.45;
- $a=45;
- $emojy="😂<br/>";
- echo $emojy;
- echo $a;
- echo "<br/>";
- echo $name;
- echo "<br/>";
+//  $number=212;
+//  $name="Areeba";
+//  $point_value=55.45;
+//  $a=45;
+//  $emojy="😂<br/>";
+//  echo $emojy;
+//  echo $a;
+//  echo "<br/>";
+//  echo $name;
+//  echo "<br/>";
 
- $country="pakistan";
- echo "i love" .$country ;
- echo " <br/>";
+//  $country="pakistan";
+//  echo "i love" .$country ;
+//  echo " <br/>";
  
- var_dump($name);
- $boolean=true;
- var_dump($boolean);
+//  var_dump($name);
+//  $boolean=true;
+//  var_dump($boolean);
 
- echo "<br>";
+//  echo "<br>";
 
-$a=$b=$c=$d=$f=22;
-echo $a;
-echo "<br>";
-echo $b;
-echo "<br>";
-echo $c;
-echo "<br>";
-echo $d;
-echo "<br>";
-echo $f;
-echo "<br>";
+// $a=$b=$c=$d=$f=22;
+// echo $a;
+// echo "<br>";
+// echo $b;
+// echo "<br>";
+// echo $c;
+// echo "<br>";
+// echo $d;
+// echo "<br>";
+// echo $f;
+// echo "<br>";
 
-echo "<h1>i am areeba </h1>";
-echo "<br>";
+// echo "<h1>i am areeba </h1>";
+// echo "<br>";
 
-print "hello";
- echo "<br>";
-print "$name";
- echo "<br>";
+// print "hello";
+//  echo "<br>";
+// print "$name";
+//  echo "<br>";
 
- echo 'i love $name';
-  echo "<br>";
- echo "i love $name";
-  echo "<br>";
- $city=("#city");
- echo $city;
- echo "<br>";
+//  echo 'i love $name';
+//   echo "<br>";
+//  echo "i love $name";
+//   echo "<br>";
+//  $city=("#city");
+//  echo $city;
+//  echo "<br>";
 
- 
+// echo $_SERVER['PHP-SELF'];
+// echo "<br/>";
+// echo $_SERVER['SERVER_NAME'];
+// echo "<br/>";
+// echo $_SERVER['HTTP_HOST'];
+// echo "<br/>";
+// echo $_SERVER['HTTP_USER_AGENT'];
+// echo "<br/>";
+//  echo $_SERVER['SCRIPT_NAME'];
+//  echo "<br/>";
+//  echo $_SERVER['REQUEST_METHOD'];
+//   echo "<br/>";
+//  echo $_SERVER['SERVER_SOFTWARE'];
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
