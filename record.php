@@ -37,6 +37,14 @@ if ($result->num_rows>0) {
     }
     // print $record;
     }
+    if ($_SERVER['REQUEST_METHOD'] == 'GET') 
+    {
+       if (isset($_GET['delete'])) {
+         $id=$_GET['delete']; 
+        $sql=" Delete from record where id=$id";
+        $result=mysqli_query($connection,$sql); 
+       }  
+    }
 
 
 // var_dump($record);
@@ -89,7 +97,7 @@ if ($result->num_rows>0) {
                 echo "<td>" . $data['cnic']."</td>";
                 echo "<td>" . $data['password']."</td>";
                 echo "<td>" . $data['city']."</td>";
-                  echo "<td>". "<a href='?delete=".$data['id']."'delete>Delete </a>" . "</td>";
+                  echo "<td>". "<a href='?delete=".$data['id']."'>Delete </a>" . "</td>";
                 echo "</tr>";
             }
             else{
@@ -97,6 +105,9 @@ if ($result->num_rows>0) {
             }
             ?>
     </table>
+
+
+
 </body>
 
 </html>
